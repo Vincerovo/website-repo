@@ -1,5 +1,5 @@
 ---
-layout: dark
+layout: page
 title: About
 example: "Example text in this variable."
 ---
