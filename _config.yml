@@ -1,9 +1,9 @@
 # Site setting
-title: Great New Bolg Title
+title: Zhong Fang
 author:
-  name: FZ
+  name: Zhong Fang
   email: example@domain.com
-description: "Great New Bolg"
+description: "personnel"
 
 # Build settings
-remote_theme: jekyll/minima
+remote_theme: poole/hyde
