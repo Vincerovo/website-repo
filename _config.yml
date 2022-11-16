@@ -6,4 +6,4 @@ author:
 description: "Great New Bolg"
 
 # Build settings
-remote_theme: poole/hyde
+remote_theme: jekyll/minima
