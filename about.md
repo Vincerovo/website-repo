@@ -1,25 +1,29 @@
 ---
 layout: page
 title: About
-example: "Example text in this variable."
 ---
 
-this is a about page {{ site.title }} by {{ site.author.name }}.
-{{ page.example }}
+<p class="message">
+  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+</p>
 
-{% for animal in site.data.animals %}
-- The {{ animal.name }} is a {{ animal.size }} animal.
-{% endfor %}}
+In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-# large animals
-{% for animal in site.data.animals %}
- {% if animal.size == "large" %}- <strong style="color: {{animal.color}};">{{ animal.name }}</strong>
- {% else %}-<small>{{ animal.name }}</small>
- {% endif %}
-{% endfor %}}
+There are currently two themes built on Poole:
 
-## small animals only
-{% assign small_animals = site.data.animals | where: "size","small" %}
-{% for animal in small_animals %}
--  {{ animal.name | upcase }} 
-{% endfor %}}
+* [Hyde](http://hyde.getpoole.com)
+* [Lanyon](http://lanyon.getpoole.com)
+
+Learn more and contribute on [GitHub](https://github.com/poole).
+
+## Setup
+
+Some fun facts about the setup of this project include:
+
+* Built for [Jekyll](https://jekyllrb.com)
+* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
+* Coded with [Atom](https://atom.io)
+
+Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+
+Thanks for reading!
