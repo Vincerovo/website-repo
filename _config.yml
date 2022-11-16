@@ -6,4 +6,4 @@ author:
 description: "personnel"
 
 # Build settings
-remote_theme: poole/hyde
+remote_theme: poole/lanyon
