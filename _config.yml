@@ -1,0 +1,9 @@
+# Site setting
+title: Great New Bolg Title
+author:
+  name: FZ
+  email: example@domain.com
+description: "Great New Bolg"
+
+# Build settings
+remote_theme: jekyll/minima
